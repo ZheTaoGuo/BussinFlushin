@@ -1,0 +1,3 @@
+[submodule "arduino"]
+	path = arduino
+	url = git@github.com:sunfire-systems/cs460-ay2023-t2-g1-5-arduino.git
