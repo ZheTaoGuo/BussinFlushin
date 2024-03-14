@@ -44,6 +44,7 @@
                 arduino-language-server
                 python3
                 virtualenv
+                mqttx
               ];
 
             shellHook = ''

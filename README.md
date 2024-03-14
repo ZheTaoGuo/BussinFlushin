@@ -1,1 +1,23 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=13405074)
+# BussinFlusshin
+
+## Dependencies
+You will need the following dependencies:
+- Docker
+- Git
+
+## Hardware
+To setup the project, you will also need the following hardware:
+- Arduino Nano ESP32
+- Raspberry PI 4
+
+
+## Installation
+
+Clone the project with the following command:
+```sh
+# clone the project and its submodules
+git clone <repo-url> --recursive
+
+# start the mqtt server
+docker compose up
+```
