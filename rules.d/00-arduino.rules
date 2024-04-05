@@ -1,0 +1,2 @@
+KERNEL=="ttyACM*", SUBSYSTEM=="tty" ATTRS{idVendor}=="2341" ATTRS{idProduct}=="805a" ATTRS{serial}=="3F539AF6690E0D52" SYMLINK+="ttyACM-T"
+KERNEL=="ttyACM*", SUBSYSTEM=="tty" ATTRS{idVendor}=="2341" ATTRS{idProduct}=="805a" ATTRS{serial}=="F96C8E9BD58DFD21" SYMLINK+="ttyACM-S"
