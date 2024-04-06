@@ -4,12 +4,12 @@
 [submodule "backend"]
 	path = backend
 	url = git@github.com:sunfire-systems/cs460-ay2023-t2-g1-5-backend.git
-[submodule "mosquitto"]
-  path = mosquitto
-  url = git@github.com:sunfire-systems/cs460-ay2023-t2-g1-5-mosquitto.git
 [submodule "telegrambot"]
 	path = telegrambot
 	url = git@github.com:sunfire-systems/cs460-ay2023-t2-g1-t5-telegrambot.git
 [submodule "dashboard"]
 	path = dashboard
 	url = git@github.com:sunfire-systems/cs460-ay2023-t2-g1-t5-dashboard.git
+[submodule "mosquitto"]
+  path = mqtt/mosquitto
+  url = git@github.com:sunfire-systems/cs460-ay2023-t2-g1-5-mosquitto.git
