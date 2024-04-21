@@ -1,0 +1,7 @@
+arduino_secrets.h
+venv
+
+__pycache__/
+*.py[cod]
+
+node_modules/

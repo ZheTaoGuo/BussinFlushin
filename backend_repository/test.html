@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Serial Data Viewer</title>
+  </head>
+  <body>
+    <h1>Serial Data Stream</h1>
+    <div id="serialData"></div>
+
+    <script>
+      const ws = new WebSocket('ws://localhost:3000/serial-data');
+
+      ws.onmessage = function (event) {
+        const message = JSON.parse(event.data);
+        const dataElement = document.getElementById('serialData');
+        // Create a new div for each piece of data and append it to the "serialData" div
+        const newLine = document.createElement('div');
+        newLine.textContent = message.data;
+        dataElement.appendChild(newLine);
+
+        // Optionally, scroll to the bottom if you are appending a lot of data
+        dataElement.scrollTop = dataElement.scrollHeight;
+      };
+
+      ws.onerror = function (error) {
+        console.error('WebSocket error:', error);
+      };
+    </script>
+  </body>
+</html>
